@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
-gcc14 hello.c -o /var/tmp/a.out
+gfortran14 -Wall -std=f2018 -fall-intrinsics -fimplicit-none \
+ -o /var/tmp/math.out /home/slider/fortran/source.f08
